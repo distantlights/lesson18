@@ -62,3 +62,18 @@ function filterGreaterThan100(numbers){
 
 console.log(filterGreaterThan100([50, 120, 99, 101, 200]));
 
+//-------------ფუბქცია აიდი ფაინდი---------------
+
+function findById(array, idToFind){
+    return array.find(function(item){
+        return item.id===idToFind
+    });
+}
+
+const users=[
+    {id: "1", name: "Mariam"},
+    {id: "2", name: "Alexander"}
+];
+
+console.log(findById(users, "2"));
+
