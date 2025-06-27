@@ -44,3 +44,11 @@ function getCountryByCurrencyCode(code){
 
 console.log(getCountryByCurrencyCode("USD"));
 
+//--------------პატარა და დიდი სიმბოლოები-----------
+
+function toLowerCaseString(str){
+    return str.toLowerCase()
+}
+
+console.log (toLowerCaseString("I WORK ON A FIRST HARD PART OF FRONTENT"))
+
