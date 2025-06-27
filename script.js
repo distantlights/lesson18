@@ -52,3 +52,13 @@ function toLowerCaseString(str){
 
 console.log (toLowerCaseString("I WORK ON A FIRST HARD PART OF FRONTENT"))
 
+//--------- 100 ზე მეტი-------------
+
+function filterGreaterThan100(numbers){
+    return numbers.filter(function(num){
+        return num > 100
+    });
+}
+
+console.log(filterGreaterThan100([50, 120, 99, 101, 200]));
+
